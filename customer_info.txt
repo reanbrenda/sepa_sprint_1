@@ -1,4 +1,3 @@
-{'name': 'brenda', 'address': '345', 'customer_id': '45'}
-{'name': 'juma', 'address': '1234', 'customer_id': 3115163323632}
-{'name': 'brenda', 'address': '1234j', 'customer_id': 1576011607984}
-
+{'name': 'peter', 'address': '123j', 'customer_id': '45'}
+{'name': 'rufus', 'address': '123j', 'customer_id': '65'}
+{'name': 'jake', 'address': '1234', 'customer_id': '67'}
