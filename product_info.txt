@@ -1,3 +1,3 @@
-{'name': 'blueband', 'amount': 0, 'price': 450.0, 'product_id': '2457529205168'}
-{'name': 'doritos', 'amount': 40, 'price': 450.0, 'product_id': '1989343691056'}
-{'name': 'water', 'amount': 45, 'price': 500.0, 'product_id': '456'}
+{'name': 'blueband', 'amount': 36, 'price': 450.0, 'product_id': '2457529205168'}
+{'name': 'doritos', 'amount': 30, 'price': 450.0, 'product_id': '1989343691056'}
+{'name': 'water', 'amount': 42, 'price': 500.0, 'product_id': '456'}

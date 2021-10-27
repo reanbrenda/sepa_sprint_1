@@ -1,0 +1,5 @@
+{'customerid': '45', 'customer name': 'peter', 'productid': '2457529205168', 'product_name': 'blueband', 'productamount': 3, 'product_price': 450.0}
+{'customerid': '45', 'customer name': 'peter', 'productid': '1989343691056', 'product_name': 'doritos', 'productamount': 2, 'product_price': 450.0}
+{'customerid': '65', 'customer name': 'jake', 'productid': '456', 'product_name': 'water', 'productamount': 3, 'product_price': 500.0}
+{'customerid': '65', 'customer name': 'jake', 'productid': '1989343691056', 'product_name': 'doritos', 'productamount': 3, 'product_price': 450.0}
+{'customerid': '45', 'customer name': 'peter', 'productid': '1989343691056', 'product_name': 'doritos', 'productamount': 3, 'product_price': 450.0}
