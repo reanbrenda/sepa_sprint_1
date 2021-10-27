@@ -1,5 +1,6 @@
 import ast
 def insert_customer():
+    #inserting customer function
     c_name = input("Enter the customer name:")
     c_address = input("Enter the customer address:")
     c_id = input("Enter a unique id:")
@@ -8,6 +9,7 @@ def insert_customer():
 
 
 def delete_customer(customer_list):
+    #deleting customer  using customer id
     c_id = input("Enter the customer Id:")
     for i in range(len(customer_list)-1):
         id=customer_list[i]['customer_id']
@@ -17,6 +19,7 @@ def delete_customer(customer_list):
 
 
 def update_customer_data(customer_list):
+    #updating customer data with either name or address
     c_id = input("Enter the customer Id:")
     cchoice=int(input("enter your choice"))
     for i in range(len(customer_list)):
@@ -30,7 +33,7 @@ def update_customer_data(customer_list):
                 customer_list[i]['address']=address
     return customer_list
 
-
+#product functions
 def insert_product():
     p_name = input("Enter the product name:")
     p_amount = int(input("Enter the number of product:"))
@@ -68,6 +71,7 @@ def update_product_data(product_list):
 
 
 def search_product(product_list):
+    #searching for a product using product  id
     p_id = input("Enter the product Id:")
     for i in range(len(product_list)):
         id = product_list[i]['product_id']
@@ -80,7 +84,8 @@ def search_product(product_list):
 
 
 def amount_purchased(product_data_list):
-    productamount=[]
+    #List a customer's (customer id will be given) and give the name of customer, product price ,amount and total amount paid
+    productamount=[]#list that cointains product amount and product name
     total=0
     c_id = input("Enter the customer Id:")
     for i in range(len(product_data_list)):
@@ -98,6 +103,7 @@ def amount_purchased(product_data_list):
 
 
 def purchase(customer_list,product_list,):
+
     p_id = input("Enter the product Id:")
     c_id=input("enter the customer id")
     c_amount = int(input("enter the amount purchased"))
